@@ -1,4 +1,13 @@
-# Indexing
+# Instantiating vectors
+## Using "c" function
+a <- c(1, 2, 3, 10)
+
+## Using ":" operator
+b <- 100:110
+## Using "seq" function
+c <- seq(1, 3, by = 0.5)
+
+# Indexing Accessing elements
 weekdays <- c("Sun","Mon","Tue","Wed","Thurs","Fri","Sat")
 #Postional indexing
 index1 <- weekdays[c(1,3)]
